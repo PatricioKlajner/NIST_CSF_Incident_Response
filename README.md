@@ -27,7 +27,7 @@ To address this security event, the network security team implemented:
 - An IDS/IPS system to filter out some ICMP traffic based on suspicious characteristics.
 <br />
 
-<h2>Incident Report Analysis:</h2>
+<h2>Incident Report Analysis</h2>
 
 <h3>Summary:</h3>
 The company experienced a security event when all network services suddenly stopped responding, disrupting regular business operations. The cybersecurity team found the disruption was caused by a distributed denial of services (DDoS) attack through a flood of incoming ICMP packets, which compromised the internal network for two hours. The incident management team responded by blocking incoming ICMP packets and stopping all non-critical network services so that critical network services could be restored.
